@@ -8,22 +8,28 @@
   </ion-side-menu-content>
 
   <ion-side-menu side="left">
-    <header class="bar bar-header bar-stable">
-      <h1 class="title">Left</h1>
+    <header class="bar bar-header bar-positive">
+      <h1 class="title">jsRss</h1>
     </header>
     <ion-content class="has-header">
       <ion-list>
-        <ion-item nav-clear menu-close ng-click="login()">
-          Login
+        <ion-item nav-clear menu-close class="item-icon-left" ng-click="login()">
+          <i class="icon ion-log-in"></i>Login
         </ion-item>
-        <ion-item nav-clear menu-close href="#/app/search">
-          Search
+        <ion-item nav-clear menu-close class="item-icon-left" href="#/app/search">
+           <i class="icon ion-search"></i>Search
         </ion-item>
-        <ion-item nav-clear menu-close href="#/app/browse">
-          Browse
+        <ion-item nav-clear menu-close class="item-icon-left" href="#/app/browse">
+          <i class="icon ion-wifi"></i>Browse
         </ion-item>
-        <ion-item nav-clear menu-close href="#/app/playlists">
-          Playlists
+        <ion-item nav-clear menu-close class="item-icon-left" href="#/app/playlists">
+          <i class="icon ion-speedometer"></i>new Rss
+        </ion-item>
+        <ion-item nav-clear menu-close class="item-icon-left" href="#/app/playlists">
+          <i class="icon ion-heart"></i>My Fav
+        </ion-item>
+        <ion-item nav-clear menu-close class="item-icon-left" ng-click="login()">
+          <i class="icon ion-log-out"></i>logout
         </ion-item>
       </ion-list>
     </ion-content>
