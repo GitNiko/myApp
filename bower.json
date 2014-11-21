@@ -5,6 +5,7 @@
     "ionic": "driftyco/ionic-bower#1.0.0-beta.13"
   },
   "dependencies": {
-    "font-awesome": "~4.2.0"
+    "font-awesome": "~4.2.0",
+    "angular-x2js": "~0.1.1"
   }
 }

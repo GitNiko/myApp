@@ -1,4 +1,4 @@
-angular.module('starter.controllers', [])
+angular.module('starter.controllers', ['starter.service'])
 
 .controller('AppCtrl', function($scope, $ionicModal, $timeout) {
   // Form data for the login modal
@@ -43,6 +43,13 @@ angular.module('starter.controllers', [])
     { title: 'Cowbell', id: 6 }
   ];
 })
-
+.controller('BrowseCtrl', ['$scope', 'RssManage', function($scope, RssManage) {
+  // TODO
+  RssManage.getRss(function(data) {
+    console.log(data);
+    $scope.myout = data;
+  });
+  console.log('load browseCtrl');
+}])
 .controller('PlaylistCtrl', function($scope, $stateParams) {
 });
