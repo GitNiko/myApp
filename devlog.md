@@ -12,8 +12,8 @@
   "collide": "1.0.0-beta.3"
 }
 ```
-collide 对于 web 前端可能比较陌生，`Collide is a powerful yet simple javascript animation engine for web and hybrid mobile apps`
-至于 sanitize 我相信都有不少人用到过，用来parser html。
+collide 对于 web 前端可能比较陌生 `Collide is a powerful yet simple javascript animation engine for web and hybrid mobile apps`
+至于 sanitize 我相信都有不少人用到过，用来安全parser html。
 ## 环境配置
 ### 前提
 - node
