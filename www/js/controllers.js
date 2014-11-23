@@ -47,7 +47,7 @@ angular.module('starter.controllers', ['starter.service'])
   // TODO
   RssManage.getRss(function(data) {
     console.log(data);
-    $scope.myout = data;
+    $scope.itemList = data.itemList;
   });
   console.log('load browseCtrl');
 }])
